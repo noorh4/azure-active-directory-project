@@ -50,8 +50,6 @@ This screenshot shows the Domain Controller configuration and confirms the Activ
 
 ![Web Server Domain](screenshots/webserver-domain-joined.png)
 
-This screenshot shows that the web server VM is successfully joined to the Active Directory domain:
-`163860.DS476.com`
 
 ### DNS Resolution
 (Add screenshot here)
