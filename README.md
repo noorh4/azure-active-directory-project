@@ -49,4 +49,7 @@ The project was designed to simulate a real-world enterprise network environment
 (Add screenshot here)
 
 ### Web Server
-(Add screenshot here)
+![Web Server](screenshots/webserver-domain-access.png)
+
+This screenshot demonstrates successful access to the IIS web server using the FQDN:
+`webserver.163860.ds476.com`
