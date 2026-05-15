@@ -46,23 +46,19 @@ The project was designed to simulate a real-world enterprise network environment
 
 ![Domain Controller](screenshots/domain-controller-configuration.png)
 
-This screenshot shows the Domain Controller configuration and confirms the Active Directory domain:
-`163860.DS476.com`
+This screenshot shows the Domain Controller configuration and confirms the Active Directory domain: `163860.DS476.com`
 
 ![Web Server Domain](screenshots/webserver-domain-joined.png)
 
-This screenshot shows that the web server VM is successfully joined to the Active Directory domain:
-`163860.DS476.com`
-
+This screenshot shows that the web server VM is successfully joined to the Active Directory domain: `163860.DS476.com`
 
 ### DNS Resolution
 
 ![Client to DC Connectivity](screenshots/client-to-domain-controller-ping.png)
 
-This screenshot demonstrates successful communication between the client VM and the Domain Controller using internal IP connectivity.
+This screenshot shows successful communication between the client VM and the Domain Controller (`10.0.0.4`) using internal network connectivity..
 
 ### Web Server
 ![Web Server](screenshots/webserver-domain-access.png)
 
-This screenshot demonstrates successful access to the IIS web server using the FQDN:
-`webserver.163860.ds476.com`
+This screenshot demonstrates successful access to the IIS web server through the FQDN: webserver.163860.ds476.com`
