@@ -43,6 +43,7 @@ The project was designed to simulate a real-world enterprise network environment
 **Note:** VNet peering was configured between all three virtual networks (DS476-vnet1, DS476-vnet2, and DS476-vnet3). This screenshot shows the peering configuration from DS476-vnet2.
 
 ### Domain Configuration
+
 ![Domain Controller](screenshots/domain-controller-configuration.png)
 
 This screenshot shows the Domain Controller configuration and confirms the Active Directory domain:
@@ -50,9 +51,15 @@ This screenshot shows the Domain Controller configuration and confirms the Activ
 
 ![Web Server Domain](screenshots/webserver-domain-joined.png)
 
+This screenshot shows that the web server VM is successfully joined to the Active Directory domain:
+`163860.DS476.com`
+
 
 ### DNS Resolution
-(Add screenshot here)
+
+![Client to DC Connectivity](screenshots/client-to-domain-controller-ping.png)
+
+This screenshot demonstrates successful communication between the client VM and the Domain Controller using internal IP connectivity.
 
 ### Web Server
 ![Web Server](screenshots/webserver-domain-access.png)
