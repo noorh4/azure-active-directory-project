@@ -30,13 +30,23 @@ The project was designed to simulate a real-world enterprise network environment
 ## Screenshots
 
 ### Azure Infrastructure
-(Add screenshots here)
+
+#### Virtual Machines
+![Virtual Machines](screenshots/virtual-machines.png)
+
+#### Virtual Networks
+![Virtual Networks](screenshots/virtual-networks.png)
+
+#### VNet Peering
+![VNet Peering](screenshots/vnet-peering.png)
+
+**Note:** VNet peering was configured between all three virtual networks (DS476-vnet1, DS476-vnet2, and DS476-vnet3). This screenshot shows the peering configuration from DS476-vnet2.
 
 ### Domain Configuration
-(Add screenshots here)
+![Domain Configuration](screenshots/domain-configuration.png)
 
 ### DNS Resolution
-(Add screenshots here)
+(Add screenshot here)
 
 ### Web Server
-(Add screenshots here)
+(Add screenshot here)
